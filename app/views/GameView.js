@@ -14,7 +14,7 @@ export default function GameView (props) {
 
   const textInputRef = useRef(null)
 
-  const [wordCount] = useState(1)
+  const [wordCount] = useState(10)
   const [words] = useState(getRandomWords(nouns, wordCount))
   const [guessedWords, setGuessedWords] = useState([])
 
